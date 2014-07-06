@@ -1,0 +1,25 @@
+Sat Jul 05 2014 15:20:42 GMT-0700 (PDT):
+{ [Error: The endpoint field storageEndpoint is not defined in this environment. Either this feature is not supported or the endpoint needs to be set using 'azure account env set']
+  stack: [Getter/Setter],
+  __frame: 
+   { name: '__4',
+     line: 202,
+     file: '/Users/HR10/.nvm/v0.10.25/lib/node_modules/azure-cli/lib/commands/asm/site._js',
+     prev: undefined,
+     active: false,
+     offset: 66,
+     col: 12 },
+  rawStack: [Getter] }
+Error: The endpoint field storageEndpoint is not defined in this environment. Either this feature is not supported or the endpoint needs to be set using 'azure account env set'
+    at Environment.get [as storageEndpoint] (/Users/HR10/.nvm/v0.10.25/lib/node_modules/azure-cli/lib/util/profile/environment.js:74:17)
+    at /Users/HR10/.nvm/v0.10.25/lib/node_modules/azure-cli/node_modules/eyes/lib/eyes.js:183:19
+    at Array.forEach (native)
+    at stringifyObject (/Users/HR10/.nvm/v0.10.25/lib/node_modules/azure-cli/node_modules/eyes/lib/eyes.js:181:10)
+    at /Users/HR10/.nvm/v0.10.25/lib/node_modules/azure-cli/node_modules/eyes/lib/eyes.js:129:38
+    at stringify (/Users/HR10/.nvm/v0.10.25/lib/node_modules/azure-cli/node_modules/eyes/lib/eyes.js:131:7)
+    at /Users/HR10/.nvm/v0.10.25/lib/node_modules/azure-cli/node_modules/eyes/lib/eyes.js:185:22
+    at Array.forEach (native)
+    at stringifyObject (/Users/HR10/.nvm/v0.10.25/lib/node_modules/azure-cli/node_modules/eyes/lib/eyes.js:181:10)
+    at /Users/HR10/.nvm/v0.10.25/lib/node_modules/azure-cli/node_modules/eyes/lib/eyes.js:129:38
+    at __4 (/Users/HR10/.nvm/v0.10.25/lib/node_modules/azure-cli/lib/commands/asm/site._js:268:12)
+
